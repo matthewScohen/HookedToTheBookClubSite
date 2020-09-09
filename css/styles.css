@@ -90,10 +90,11 @@ body {
 
 .home-page-title {
   font-family: 'Advent Pro'; font-size: 40px; font-weight: bold;
+  margin: 0; 
 }
 
 .home-page-content {
-  font-family: 'Advent Pro'; font-size: 20px;
+  font-family: 'Advent Pro'; font-size: 1.5vw;
 }
 
 #announcements {
