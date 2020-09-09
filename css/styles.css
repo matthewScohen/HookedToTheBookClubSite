@@ -73,13 +73,10 @@ body {
 }
 
 #home-main {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .home-content {
   text-align: center;
-  flex: 0 0 49.86%;
   border-top: solid 1px black;
   border-left: solid 1px black;
 }
