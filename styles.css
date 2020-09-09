@@ -1,6 +1,6 @@
 body {
   /* Add background color to entire page */
-  background-color: #EAEAEA;
+  background-color: #D6D6D6;
   /* Remove margins around edges of page */
   margin: 0;
 }
@@ -32,6 +32,46 @@ body {
   color: white;
 }
 
+.collapsible {
+  background-color: #555555;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: solid 1px black;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+.recommendation-content {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #D6D6D6;;
+}
+
+.recommendation-table {
+  background-color: #D6D6D6;
+  border-spacing: 5px 10px 5px 0px;
+  border-collapse: collapse;
+}
+
+.recommendation-table-entry {
+  background-color: #D6D6D6;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: solid 1px black;
+}
+
 #home-main {
   display: flex;
   flex-wrap: wrap;
@@ -47,6 +87,20 @@ body {
   text-align: center;
   font-family: 'Advent Pro'; font-size: 80px; font-weight: bold;
   color: #392B58
+}
+
+#text-header {
+  text-align: center;
+  text-font: 'Advent Pro'; font-size: 20px; font-weight: bold;
+}
+
+#text-footer {
+  text-align: center;
+  text-font: 'Advent Pro'; font-size: 20px;
+}
+
+#recommendations-container {
+
 }
 
 #calendar-container {
