@@ -79,7 +79,9 @@ body {
 
 .home-content {
   text-align: center;
-  flex: 0 0 49%;
+  flex: 0 0 49.86%;
+  border-top: solid 1px black;
+  border-left: solid 1px black;
 }
 
 #banner-text {
@@ -87,6 +89,18 @@ body {
   text-align: center;
   font-family: 'Advent Pro'; font-size: 80px; font-weight: bold;
   color: #392B58
+}
+
+.home-page-title {
+  font-family: 'Advent Pro'; font-size: 40px; font-weight: bold;
+}
+
+.home-page-content {
+  font-family: 'Advent Pro'; font-size: 20px;
+}
+
+#announcements {
+  text-align: center;
 }
 
 #text-header {
@@ -97,6 +111,29 @@ body {
 #text-footer {
   text-align: center;
   text-font: 'Advent Pro'; font-size: 20px;
+}
+
+#about-title-div {
+  text-align: center;
+}
+
+#about-title {
+  margin: 10px;
+  text-align: center;
+  font-family: 'Advent Pro'; font-size: 60px; font-weight: bold;
+}
+
+#about-paragraph-div {
+  font-family: 'Advent Pro'; font-size: 30px;
+}
+
+.about-subtitle {
+  font-family: 'Advent Pro'; font-size: 30px; font-weight: bold;
+}
+
+#about-list {
+  list-style-type: none;
+  font-family: 'Advent Pro'; font-size: 20px;
 }
 
 #recommendations-container {
