@@ -84,12 +84,12 @@ body {
 #banner-text {
   margin: 10px;
   text-align: center;
-  font-family: 'Advent Pro'; font-size: 80px; font-weight: bold;
+  font-family: 'Advent Pro'; font-size: 4.5vw; font-weight: bold;
   color: #392B58
 }
 
 .home-page-title {
-  font-family: 'Advent Pro'; font-size: 40px; font-weight: bold;
+  font-family: 'Advent Pro'; font-size: 2.8vw; font-weight: bold;
   margin: 0;
 }
 
