@@ -72,13 +72,22 @@ body {
   border-bottom: solid 1px black;
 }
 
-#home-main {
+.page-main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
-.home-content {
+.content-block {
+  margin: 1em;
+
   text-align: center;
-  border-top: solid 1px black;
-  border-left: solid 1px black;
+
+  border: solid 3px;
+  border-color: #E6E6E6;
+  background-color: #FAFAFA;
+  border-radius: 2em;
 }
 
 #banner-text {
@@ -88,12 +97,12 @@ body {
   color: #392B58
 }
 
-.home-page-title {
+.content-block-title {
   font-family: 'Advent Pro'; font-size: 2.8vw; font-weight: bold;
   margin: 0;
 }
 
-.home-page-content {
+.content-block-text {
   font-family: 'Advent Pro'; font-size: 1.5vw;
   margin: 2vh;
 }
