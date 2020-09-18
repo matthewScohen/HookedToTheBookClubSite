@@ -8,6 +8,7 @@ body {
 .topnav {
   background-color: #392B58;
   overflow: hidden;
+  height: 4em;
 }
 
 /* Style the links inside the navigation bar */
@@ -15,9 +16,10 @@ body {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0.8em 0.9em;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.5em;
+  height: 4em;
 }
 
 /* Change the color of links on hover */
@@ -76,7 +78,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 90%;
 }
 
 
