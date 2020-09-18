@@ -1,6 +1,6 @@
 body {
   /* Add background color to entire page */
-  background-color: #D6D6D6;
+  background-color: #EBEBEB;
   /* Remove margins around edges of page */
   margin: 0;
 }
@@ -79,6 +79,22 @@ body {
   width: 70%;
 }
 
+
+.banner {
+  text-align: center;
+}
+
+.banner-text {
+  margin: 10px;
+  font-family: 'Advent Pro'; font-size: 4.5vw; font-weight: bold;
+  color: #000000
+}
+
+.banner-subtext {
+  margin: 0;
+  font-family: 'Advent Pro'; font-size: 3vw; font-weight: bold;
+}
+
 .content-block {
   margin: 1em;
 
@@ -88,13 +104,6 @@ body {
   border-color: #E6E6E6;
   background-color: #FAFAFA;
   border-radius: 2em;
-}
-
-#banner-text {
-  margin: 10px;
-  text-align: center;
-  font-family: 'Advent Pro'; font-size: 4.5vw; font-weight: bold;
-  color: #392B58
 }
 
 .content-block-title {
@@ -107,52 +116,23 @@ body {
   margin: 2vh;
 }
 
-#announcements {
-  text-align: center;
+.list-block {
+  margin: 1em;
+
+  border: solid 3px;
+  border-color: #E6E6E6;
+  background-color: #FAFAFA;
+  border-radius: 2em;
 }
 
-#text-header {
-  text-align: center;
-  text-font: 'Advent Pro'; font-size: 20px; font-weight: bold;
-}
-
-#text-footer {
-  text-align: center;
-  text-font: 'Advent Pro'; font-size: 20px;
-}
-
-#about-title-div {
-  text-align: center;
-}
-
-#about-title {
-  margin: 10px;
-  text-align: center;
-  font-family: 'Advent Pro'; font-size: 60px; font-weight: bold;
-}
-
-#about-paragraph-div {
-  margin: 0;
-  font-family: 'Advent Pro'; font-size: 1.7vw;
-}
-
-.about-subtitle {
-  margin: 0;
-  font-family: 'Advent Pro'; font-size: 3vw; font-weight: bold;
-}
-
-#about-list-title {
+.list-block-title {
   list-style-type: none;
   font-family: 'Advent Pro'; font-size: 2.5vw;
 }
 
-.about-list-item {
-    font-family: 'Advent Pro'; font-size: 2vw;
-    margin-top: 1vh;
-}
-
-#recommendations-container {
-
+.list-block-item {
+  font-family: 'Advent Pro'; font-size: 2vw;
+  margin-top: 1vh;
 }
 
 #calendar-container {
